@@ -2,8 +2,8 @@ import Catastrophe from "./catastrophe";
 
 class Alert {
   private start: Date;
-  private end: Date;
-  private description: string;
+  private end?: Date;
+  private description?: string;
   private catastrophe: Catastrophe;
 
   constructor(
@@ -22,11 +22,7 @@ class Alert {
     return this.start;
   }
 
-  public setStart(start: Date): void {
-    this.start = start;
-  }
-
-  public getEnd(): Date {
+  public getEnd(): Date | undefined {
     return this.end;
   }
 
@@ -34,7 +30,7 @@ class Alert {
     this.end = end;
   }
 
-  public getDescription(): string {
+  public getDescription(): string | undefined {
     return this.description;
   }
 
