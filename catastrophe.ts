@@ -1,6 +1,5 @@
 import { Name } from "./types";
 import Alert from "./alert";
-
 class Catastrophe {
   private name: Name;
   private description?: string;
