@@ -28,4 +28,9 @@ type Name = {
   maxLength: number;
 };
 
-export { Coordinate, Temperature, Email, Password, Name };
+type ZipCode = {
+  value: string;
+  pattern: RegExp;
+};
+
+export { Coordinate, Temperature, Email, Password, Name, ZipCode };
