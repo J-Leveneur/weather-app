@@ -14,10 +14,6 @@ class Earthquake {
     return this.intensity;
   }
 
-  public setIntensity(intensity: number): void {
-    this.intensity = intensity;
-  }
-
   public getCatastropheName(): Name {
     return this.catastrophe.getName();
   }

@@ -14,10 +14,6 @@ class Hurricane {
     return this.strength;
   }
 
-  public setStrength(strength: number): void {
-    this.strength = strength;
-  }
-
   public getCatastropheName(): Name {
     return this.catastrophe.getName();
   }

@@ -14,10 +14,6 @@ class Tsunami {
     return this.height;
   }
 
-  public setHeight(height: number): void {
-    this.height = height;
-  }
-
   public getCatastropheName(): Name {
     return this.catastrophe.getName();
   }
