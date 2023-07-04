@@ -1,7 +1,7 @@
 import Catastrophe from "./catastrophe";
 import { Name } from "./types";
 
-class Hurrican {
+class Hurricane {
   private strength: number;
   private catastrophe: Catastrophe;
 
@@ -26,3 +26,5 @@ class Hurrican {
     return this.catastrophe.getDescription();
   }
 }
+
+export default Hurricane;
