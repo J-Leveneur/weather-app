@@ -26,24 +26,12 @@ class Alert {
     return this.end;
   }
 
-  public setEnd(end: Date): void {
-    this.end = end;
-  }
-
   public getDescription(): string | undefined {
     return this.description;
   }
 
-  public setDescription(description: string): void {
-    this.description = description;
-  }
-
   public getCatastrophe(): Catastrophe {
     return this.catastrophe;
-  }
-
-  public setCatastrophe(catastrophe: Catastrophe): void {
-    this.catastrophe = catastrophe;
   }
 }
 
