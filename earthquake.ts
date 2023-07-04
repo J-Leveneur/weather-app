@@ -26,3 +26,5 @@ class Earthquake {
     return this.catastrophe.getDescription();
   }
 }
+
+export default Earthquake;
